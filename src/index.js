@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
+import Effect from './UseEffect';
+import Reduce from './UseReduce';
   
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Reduce/>
+    <Effect/>
   </React.StrictMode>,
   document.getElementById('root')
 );
